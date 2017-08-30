@@ -789,6 +789,10 @@
     <Compile Include="Migrations\201708241907124_PrefixReservation.Designer.cs">
       <DependentUpon>201708241907124_PrefixReservation.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201708302201411_AddPackageStatusKey.cs" />
+    <Compile Include="Migrations\201708302201411_AddPackageStatusKey.Designer.cs">
+      <DependentUpon>201708302201411_AddPackageStatusKey.cs</DependentUpon>
+    </Compile>
     <Compile Include="Security\RequireSecurePushForCoOwnersPolicy.cs" />
     <Compile Include="Security\SecurePushSubscription.cs" />
     <Compile Include="Security\IUserSecurityPolicySubscription.cs" />
@@ -1785,6 +1789,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201708241907124_PrefixReservation.resx">
       <DependentUpon>201708241907124_PrefixReservation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708302201411_AddPackageStatusKey.resx">
+      <DependentUpon>201708302201411_AddPackageStatusKey.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OData\QueryAllowed\Data\apiv1packages.json" />
     <EmbeddedResource Include="OData\QueryAllowed\Data\apiv1search.json" />
