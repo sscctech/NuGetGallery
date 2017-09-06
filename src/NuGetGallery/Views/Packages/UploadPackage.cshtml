@@ -69,12 +69,6 @@
     @Scripts.Render("~/Scripts/gallery/async-file-upload.js")
     <script type="text/javascript">
         var InProgressPackage = @Html.Raw(Json.Encode(Model.InProgressUpload));
-        window.nuget.configureExpander(
-            "upload-package-form",
-            "ChevronRight",
-            "Upload",
-            "ChevronDown",
-            "Upload");
         
         $(function () {
             $("#browse-for-package-button").on("keypress", function (e) {
@@ -92,6 +86,8 @@
                 '@Url.Action(actionName: "UploadPackage", controllerName: "Packages")',
                 '@Url.Action(actionName: "CancelUpload", controllerName: "Packages")',
                 '@Url.Action(actionName: "VerifyPackage", controllerName: "Packages")');
+
+            window.nuget.configureExpanderHeading("upload-package-form");
         });
     </script>
 }

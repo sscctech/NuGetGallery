@@ -561,4 +561,10 @@ For more information, please contact '{2}'.</value>
   <data name="ReservedNamespace_UserNotFound" xml:space="preserve">
     <value>User not found with username '{0}'</value>
   </data>
+  <data name="PreviewReadMe_ConversionFailed" xml:space="preserve">
+    <value>Conversion of Markdown to HTML failed with '{0}'.</value>
+  </data>
+  <data name="PreviewReadMe_ReadMeMissing" xml:space="preserve">
+    <value>There is no ReadMe available to preview.</value>
+  </data>
 </root>
